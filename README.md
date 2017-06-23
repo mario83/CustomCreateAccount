@@ -1,11 +1,14 @@
 # Custom Create Account
 
-Two Simple Liferay module for override CreateAccountMVCActionCommand to add user to relative Organization.
+Two Simple Liferay modules for override the CreateAccountMVCActionCommand to add user to relative Organization.
 
-login-fragment is a OSGi Fragment Module to export private com.liferay.login.web package and create_account.jsp hook.
+login-fragment is a OSGi Fragment Module to export private com.liferay.login.web package and a hook for create_account.jsp. 
 liferay-challenge is a OSGi module with an activator for create Organizations and a Organization Custom Field on deploy, also implement CustomCreateAccountMVCActionCommand for override CustomCreateAccountMVCActionCommand.
 
+In portlet.properties file are configurated two Organizzation (ITALY and IRELAND), the registration code is registration-italy and registration-ireland
+
 ### Technologies used
+ - Liferay 7
  - Java 8
  - Gradle
  - OSGi
@@ -13,7 +16,7 @@ liferay-challenge is a OSGi module with an activator for create Organizations an
 ### Requirement
 
  - JDK 1.8
- - Liferay DXP SP 14
+ - Liferay DXP SP14
 
 ### Build
 
