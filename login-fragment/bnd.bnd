@@ -1,0 +1,11 @@
+Bundle-Name: manza login fragment
+Bundle-SymbolicName: manza.login.fragment
+Bundle-Version: 1.0.0
+
+Fragment-Host: com.liferay.login.web;bundle-version="[1.0.0,2.0.0)"
+
+Export-Package: com.liferay.login.web.constants,\
+	com.liferay.login.web.internal.portlet.action
+
+Liferay-Releng-Module-Group-Description:
+Liferay-Releng-Module-Group-Title:

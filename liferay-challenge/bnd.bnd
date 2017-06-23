@@ -1,0 +1,8 @@
+Bundle-Name: manza liferay challenge
+Bundle-SymbolicName: manza.liferay.challenge
+Bundle-Version: 1.0.0
+
+Bundle-Activator: it.manza.activator.Activator
+
+Import-Package:\
+	*
