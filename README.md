@@ -18,8 +18,11 @@ liferay-challenge is a OSGi module with an activator for create Organizations an
 ### Build
 
 ```
-./liferay-challenge/gradlew clean build
-./login-fragment/gradlew clean build
+cd liferay-challenge
+./gradlew clean build
+
+cd login-fragment
+./gradlew clean build
 ```
 
 
